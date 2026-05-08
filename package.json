@@ -1,9 +1,9 @@
 {
-  "name": "calcfee",
+  "name": "yalla-shoot",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://Khalidalansi.github.io/calcfee",
+  "homepage": "https://github.com/kumarisshamsher/yalla-shoot",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
