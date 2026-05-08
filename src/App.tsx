@@ -36,7 +36,7 @@ function App() {
           </button>
         </header>
         <main className="w-full max-w-6xl mx-auto  bg-white/90 dark:bg-slate-800/80 rounded-3xl shadow-2xl flex flex-col gap-6 items-stretch mt-2 mb-8 border border-blue-100 dark:border-slate-700 backdrop-blur-sm transition-colors">
-          {/* {import.meta.env.VITE_IFRAME_URL && (
+          {import.meta.env.VITE_IFRAME_URL && (
             <iframe
               src={import.meta.env.VITE_IFRAME_URL}
               className="w-full rounded-2xl border border-blue-100 dark:border-slate-700 shadow"
@@ -45,7 +45,7 @@ function App() {
               loading="lazy"
               title="yalla-shoot"
             />
-          )} */}
+          )}
         </main>
         <footer className="w-full text-center mt-auto py-6 text-gray-500 dark:text-gray-400 text-base tracking-wide font-tajawal select-none bg-transparent">
           <span className="opacity-80">جميع الحقوق محفوظة © {new Date().getFullYear()} - <a href={import.meta.env.VITE_SEO_URL} target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors underline">{import.meta.env.VITE_SEO_AUTHOR}</a></span>
