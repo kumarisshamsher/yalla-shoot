@@ -48,6 +48,7 @@ function App() {
           )}
         </main>
         <footer className="w-full text-center mt-auto py-6 text-gray-500 dark:text-gray-400 text-base tracking-wide font-tajawal select-none bg-transparent">
+          <a title="كورة لايف" href="https://www.ikoranlive.com" className="block py-2 px-2 text-gray-700 rounded-lg hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-600 md:py-2 md:px-2 dark:text-gray-300 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"><span className="text-sm font-medium text-sl-footer hover:text-sl-primary hover:underline">كورة لايف</span></a>
           <span className="opacity-80">جميع الحقوق محفوظة © {new Date().getFullYear()} - <a href={import.meta.env.VITE_SEO_URL} target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 dark:hover:text-blue-400 transition-colors underline">{import.meta.env.VITE_SEO_AUTHOR}</a></span>
         </footer>
       </div>
